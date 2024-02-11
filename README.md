@@ -19,20 +19,25 @@ It is strongly suggested to continue the reading from the .ipynb file.
 ### shortest path touching all the cities:
 To compute the shortest path I used a modified TSP (The Salesman Problem) algorithm. In the code you can see a method to dedect and avoid loops in the graph. 
 TSP algorithm reveals to be extremelly effective. When the graph is too dense TSP is not efficent, so I suggest to do some data cleaning, like only taking the 5 closest cities an don't compute the distance for each possible node.
+
 ![shortest_path](https://github.com/MirkoCalvi/Vento_bicycleLane_optimization_problem/assets/118633160/161509d4-0e0f-4787-9d74-9d034b7b2ddd)
+![clean shortest_path](https://github.com/MirkoCalvi/Vento_bicycleLane_optimization_problem/assets/118633160/dbf4d174-816c-4e20-a462-74d26bd2a071)
 
 ### chargin stations positioning
 #### 10k budget
-![10k budget](https://github.com/MirkoCalvi/Vento_bicycleLane_optimization_problem/assets/118633160/dbf4d174-816c-4e20-a462-74d26bd2a071)
+
+![10k budget](https://github.com/MirkoCalvi/Vento_bicycleLane_optimization_problem/assets/118633160/529d416f-548d-4ce7-a5c8-29389a09a374)
 
 #### 30k budget
+
 ![image](https://github.com/MirkoCalvi/Vento_bicycleLane_optimization_problem/assets/118633160/c7aaed08-8820-4c55-bf56-37dacb1e568a)
 
 #### 40K budget
+
 ![image](https://github.com/MirkoCalvi/Vento_bicycleLane_optimization_problem/assets/118633160/54f5605a-6d25-4e62-8c80-d250ebdc39d0)
 
 other budgets are present in the .ipynb file
-As you can see there is a threshold at 16011.18979 [m], so using a budget over 29892 euros wont improve the minimixed maximum distance between stations.
+As you can see there is a threshold at 16011.18979 [m] (0->43), so using a budget over 29892 euros wont improve the minimixed maximum distance between stations.
 
 
 
